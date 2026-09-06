@@ -1,0 +1,10 @@
+2026-09-06 10:05:45 | INFO     | pipeline.config | __init__.py:25 | Environment variables have been successfully loaded
+2026-09-06 10:05:45 | INFO     | __main__ | extract.py:14 | Starting to extract data
+2026-09-06 10:06:34 | INFO     | pipeline.config | __init__.py:25 | Environment variables have been successfully loaded
+2026-09-06 10:06:34 | INFO     | __main__ | extract.py:14 | Starting to extract data
+2026-09-06 10:06:37 | WARNING  | __main__ | extract.py:66 | Completeness quality degradation detected: only 15/20 columns are [OK] (75.00%).
+2026-09-06 10:06:37 | INFO     | __main__ | extract.py:30 | Successfully extracted raw data: path=C:\Users\jerez\Downloads\pipeline_weekend05-09\data\raw\yellow_tripdata_2026-03.parquet rows=3952451 columns=20 duration=3.45s
+2026-09-06 10:09:28 | INFO     | pipeline.config | __init__.py:25 | Environment variables have been successfully loaded
+2026-09-06 10:09:28 | INFO     | __main__ | extract.py:14 | Starting to extract data
+2026-09-06 10:09:33 | WARNING  | __main__ | extract.py:66 | Completeness quality degradation detected: only 15/20 columns are [OK] (75.00%).
+2026-09-06 10:09:33 | INFO     | __main__ | extract.py:30 | Successfully extracted raw data: path=C:\Users\jerez\Downloads\pipeline_weekend05-09\data\raw\yellow_tripdata_2026-03.parquet rows=3952451 columns=20 duration=5.14s

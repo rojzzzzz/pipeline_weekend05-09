@@ -33,3 +33,7 @@ except Exception as e:
 
 
 RAW_PATH = Path(__file__).parents[3] / "data" / "raw" / "yellow_tripdata_2026-03.parquet"
+
+data_contract = {}
+data_contract['completeness'] = {"OK_THRESHOLD": 90, "WARNING_THRESHOLD": 80,
+                                 "HEALTHY_COLUMNS_THRESHOLD": 85, "HEALTHY_COLUMNS_LIMIT": 60}
