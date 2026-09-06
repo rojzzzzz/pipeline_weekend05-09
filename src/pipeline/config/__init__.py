@@ -37,3 +37,6 @@ RAW_PATH = Path(__file__).parents[3] / "data" / "raw" / "yellow_tripdata_2026-03
 data_contract = {}
 data_contract['completeness'] = {"OK_THRESHOLD": 90, "WARNING_THRESHOLD": 80,
                                  "HEALTHY_COLUMNS_THRESHOLD": 85, "HEALTHY_COLUMNS_LIMIT": 60}
+
+data_contract['uniqueness'] = {'OK_THRESHOLD': 95, 'WARNING_THRESHOLD': 90}
+data_contract['quality_score'] = {'HEALTHY_THRESHOLD': 95, 'WARNING_THRESHOLD': 85}
