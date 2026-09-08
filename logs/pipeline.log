@@ -59,3 +59,6 @@
 2026-09-06 15:02:45 | INFO     | pipeline.extract.extract | extract.py:28 | Successfully extracted raw data: path=C:\Users\jerez\Downloads\pipeline_weekend05-09\data\raw\yellow_tripdata_2026-03.parquet rows=3952451 columns=20 duration=0.37s
 2026-09-06 15:02:51 | INFO     | __main__ | validate.py:64 | Uniqueness quality is adequate: 100.0%. 0/3952451 are duplicated.
 2026-09-06 15:02:56 | INFO     | __main__ | validate.py:64 | Uniqueness quality is adequate: 100.0%. 0/3952451 are duplicated.
+2026-09-06 15:32:29 | INFO     | pipeline.config | __init__.py:25 | Environment variables have been successfully loaded
+2026-09-06 15:32:29 | INFO     | pipeline.extract.extract | extract.py:12 | Starting to extract data
+2026-09-06 15:32:30 | INFO     | pipeline.extract.extract | extract.py:28 | Successfully extracted raw data: path=C:\Users\jerez\Downloads\pipeline_weekend05-09\data\raw\yellow_tripdata_2026-03.parquet rows=3952451 columns=20 duration=1.42s
